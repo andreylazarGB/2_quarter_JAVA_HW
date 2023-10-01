@@ -1,10 +1,7 @@
 package JAVA.Homework.Homework_seminar6;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
 
 public class Main1 {
     /*
@@ -37,6 +34,11 @@ public class Main1 {
      */
 
     public static void main(String[] args) {
-        Menu.inputFiltr(Menu.filtrLaptop);
+
+        Map <String, String> filtrLaptop = new HashMap<>();
+
+        methods.inputFiltr(filtrLaptop);
+        methods.printSet(Laptop.laptops);
+
     }
 }

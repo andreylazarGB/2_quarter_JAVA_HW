@@ -9,8 +9,7 @@ public class Laptop {
 
     static Set<Laptop> laptops = new HashSet<>();
     
-    static Set addLaptop(Set<Laptop> lap){
-        
+    static Set addLaptop(Set<Laptop> lap){   
         Laptop laptop1 = new Laptop();
         laptop1.RAM = 8;
         laptop1.SSD = 256;
@@ -81,7 +80,6 @@ public class Laptop {
         lap.add(laptop8);
         lap.add(laptop9);
         lap.add(laptop10);
-
         return lap;
     }
     
